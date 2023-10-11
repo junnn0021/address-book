@@ -11,7 +11,7 @@
 
 - Web Server 구축
 - Web Server-DB 구축 및 연동
-- NAT, ALB, Auto Scaling 구축<p>
+- NAT, ALB, Auto Scaling 구축<br>
 　　　　+
 - 위 과정을 Terraform로 구축
 <br>
