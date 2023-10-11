@@ -1,14 +1,12 @@
 ## Requirement
 
-### Web Server / WAS 서비스를 위한 인프라 구축
+### Web Server / DB 연동 인프라 구축
 
-- Web Server 구축(apache v2.4 ~)
-- WAS 구축(tomcat) - java: OpenJDK 설치 & yum/dnf로 java 설치 선택
-- Web Server-WAS 연동 - Proxy모드 설정 또는 mod.jk 모드 설정
-- DB 구축 및 연동
-- CDN, 애플리케이션 및 인프라 모니터링, DNS 구성<p>
+- Web Server 구축
+- Web Server-DB 구축 및 연동
+- NAT, ALB, Auto Scaling 구축<p>
 　　　　　　　　　+
-- 기존 3 Tier로 구축한 위 과정을 Docker, K8s로 구축
+- 구축한 위 과정을 Terraform로 구축
 <br>
 
 ## Summary
