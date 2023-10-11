@@ -17,7 +17,7 @@
 <br>
 
 ## Summary
-멀티 AZ로 구축된 DB와 연동된 **전화번호부 웹 서버**를 운영합니다.<p>
+멀티 AZ로 구축된 DB와 연동된 **전화번호부 웹 서비스**를 운영합니다.<p>
 모든 리소스는 **AWS 인프라에 Terraform으로 구축**했습니다.
 
 <br>
@@ -46,3 +46,13 @@
 
 ## Prerequisites
 
+AWS 배포 자동화를 구현하기 위해서는 AWS에 계정이 있어야 합니다.
+```
+https://aws.amazon.com/ko/
+``` 
+전화번호부 웹 서비스의 AWS 인프라를 구축 하기 위해 다음을 실행합니다.
+```
+terraform init
+terraform plan
+terraform apply
+```
